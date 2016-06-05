@@ -1,4 +1,4 @@
-package br.ldrson.otimizacao.diversidade.fenotipica;
+package br.com.ldrson.otimizacao.diversidade.fenotipica;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
