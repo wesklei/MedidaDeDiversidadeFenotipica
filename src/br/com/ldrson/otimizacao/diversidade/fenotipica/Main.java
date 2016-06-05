@@ -22,9 +22,9 @@ public class Main {
         for(int i=0;i<1000;i++){
             List<Double> listaDeFitness = importador.obterFitnessDaGeracao(nomeDoArquivo,i);
 
-            for(int j = 0; j<50; j++){
+            /*for(int j = 0; j<50; j++){
                 System.out.println(j + ": " + listaDeFitness.get(j));
-            }
+            }*/
             //--
             // Calcula a diversidade para a população
             //--
@@ -33,7 +33,7 @@ public class Main {
 
             System.out.println("Diversidade = "+diversidade);
             
-            System.out.println();
+            //System.out.println();
         }
 
     }

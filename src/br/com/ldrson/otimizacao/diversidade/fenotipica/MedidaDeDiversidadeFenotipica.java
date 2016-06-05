@@ -97,6 +97,9 @@ public class MedidaDeDiversidadeFenotipica {
         //--
         // Retorna a diversidade
         //--
+        if(Double.isNaN(aux_2 / vmd)){
+            System.out.println("is NaN! " + aux_2 + " / " + vmd);
+        }
         return ( aux_2 / vmd);
     }
 
